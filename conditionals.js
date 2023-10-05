@@ -39,15 +39,15 @@ if(a > b && a > b){
 let temp = 10
 if(temp <= 0){
     console.log("Det er frostvejr");
-} else if(temp >= 1 && temp <= 10){
+} else if(temp > 0 && temp <= 10){
     console.log("Det er meget koldt");
-} else if(temp >= 11 && temp <= 20){
+} else if(temp > 10 && temp <= 20){
     console.log("Det er koldt");
-} else if(temp >= 21 && temp <= 30){
+} else if(temp > 20 && temp <= 30){
     console.log("Det er normalt vejr");
-} else if(temp >= 31 && temp <= 40){
+} else if(temp > 30 && temp <= 40){
     console.log("Det er varmt");
-} else if(temp >= 41){
+} else if(temp > 40){
     console.log("Det er meget varmt");
 }
 
