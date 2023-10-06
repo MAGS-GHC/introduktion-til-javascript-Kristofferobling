@@ -1,9 +1,9 @@
 //Opgave 4.1
-let byer = ["Randers", "Viborg", "Aarhus"];
+let byer = ["Randers", "Viborg", "Aarhus", "København"];
 console.log(byer[1]);
 
 //Opgave 4.2
-let byer2 = ["Randers", "Viborg", "Aarhus"];
+let byer2 = ["Randers", "Viborg", "Aarhus", "København"];
 byer2.push ("Skive")
 console.log(byer2);
 

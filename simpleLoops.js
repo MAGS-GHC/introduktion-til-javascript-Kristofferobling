@@ -17,7 +17,7 @@ for (let i = 0; i <= 100; i++) {
 //Opgave 3.3
     //For-loop
     for (let i = 1; i <= 100; i++){
-        if(i % 3 == 0 && i % 5 == 0){
+        if(i % 15 == 0){
             console.log("FizzBuzz");
         }else if(i % 3 == 0){
             console.log("Fizz");
